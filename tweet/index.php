@@ -21,7 +21,7 @@
  */
 
 
-require("/_sql/sqlopen.php"); //open SQLDB connection
+require("/home/jannae/webapps/rootphp/_sql/sqlopen.php"); //open SQLDB connection
 
 // Use Matt Harris' OAuth library to make the connection
 // This lives at: https://github.com/themattharris/tmhOAuth
@@ -111,6 +111,9 @@ if (isset($_GET['func'])) {
 							break;
 						case 'blink':
 							echo 'B';
+							break;
+						case 'saycheese':
+							echo 'P';
 							break;
 						default:
 							echo 'N';

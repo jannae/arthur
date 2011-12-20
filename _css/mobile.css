@@ -1,0 +1,28 @@
+#page {
+	width: 100%;
+}
+#camheader {
+	width:100%;
+	line-height:1.9;
+	margin: 0 auto;
+	padding: 6px;
+	text-align: center;
+}
+#camheader h1 {
+	display: inline;
+}
+#galContent {
+	width: 100%;
+	margin-bottom: 10px;
+}
+#gallery img{
+	width:85px;
+	-webkit-box-shadow:2px 2px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow:2px 2px 4px rgba(0,0,0,0.3);
+	box-shadow:2px 2px 4px rgba(0,0,0,0.3);
+	border:1px solid #363636;
+	margin: 2px;
+}
+.perma {
+	display: none;
+}
