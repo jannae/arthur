@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Global CSS */
+body {
+	font-family: Helvetica, Verdana, Arial;
+	color: #333333;
+}
+a {
+	color: #b82525;
+	text-decoration: none;
+}
+h2, h3 {
+	color: #3636AB;
+	margin-left: 20px;
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #CDCDCD;
+	font-size: 14pt;
+}
+/* End Global CSS */
+
+/* Styles for Arthur Main Page*/
+#mainheader h1 {
+	border-bottom: 1px solid #CDCDCD;
+	color: #696969;
+	font-size: 16pt;
+}
+#maincontent {
+	width: 75%;
+	padding: 20px:
+	margin: 20px;
+}
+.hash {
+	margin-left: 5px;
+}
+.hash p{
+	margin-left: 40px;
+}
+#twitter {
+	width: 250px;
+	position: fixed;
+	top: 40px;
+	right: 10px;
+}
+#icon {
+	width: 250px;
+	height: 375px;
+	background-image: url(arthur-small.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+#contacts {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+}
+#footer{
+	border-top: 1px solid #CDCDCD;
+	margin: 10px;
+	padding: 10px;
+	font-size: smaller;
+	color: #898989;
+}
+/* End Styles for Arthur Main Page*/
+
+/* Styles for Arthur Cam */
+#camheader {
+	z-index:5;
+	width:90%;
+	line-height:1.9;
+	margin: 0 auto;
+	background-color:rgba(255,255,255,0.9);
+	padding:10px;
+	-webkit-box-shadow:2px 2px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow:2px 2px 4px rgba(0,0,0,0.3);
+	box-shadow:2px 2px 4px rgba(0,0,0,0.3);
+	border:1px solid #6A6A6A;
+	text-align: center;
+}
+#camheader h1 {
+	display: inline;
+}
+ul.thumbs {
+	display: block;
+	margin-top: 10px;
+	list-style: none;
+}
+.thumbs li {
+	display: block;
+	float: left;
+	margin: 7px;
+}
+.thumbs img {
+	border: 1px #cdcdcd solid;
+}
+.thumbs a:hover img {
+	filter:alpha(opacity=50);
+	opacity: 0.6;
+}
+#galContent {
+	width: 90%;
+	margin: 0 auto;
+}
+#gallery {
+	width: 100%;
+	margin-top: 15px;
+	margin: 0 auto;
+}
+#gallery img{
+	width:230px;
+	-webkit-box-shadow:2px 2px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow:2px 2px 4px rgba(0,0,0,0.3);
+	box-shadow:2px 2px 4px rgba(0,0,0,0.3);
+	border:1px solid #363636;
+	margin: 7px;
+}
+.perma {
+	font-size: smaller;
+	margin:0 10px 4px 15px;
+	text-align: right;
+	color: #787878;
+}
+.perma a {
+	color: #9A9A9A;
+}
+
+/*End Styles for Arthur Cam */
