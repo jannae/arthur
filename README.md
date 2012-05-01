@@ -17,4 +17,3 @@ Arthur is an experimentation in the concept of the "Remote Hug." He's non-invasi
 - - - - 
 Blog documentation: <http://jann.ae/2011/12/p-comp-final-project-arthur-improved/>
 
-
