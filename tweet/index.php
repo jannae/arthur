@@ -21,19 +21,25 @@
  */
 
 
-require("/home/jannae/webapps/rootphp/_sql/sqlopen.php"); //open SQLDB connection
+require("_private/sqlopen.php"); //open SQLDB connection
 
 // Use Matt Harris' OAuth library to make the connection
 // This lives at: https://github.com/themattharris/tmhOAuth
 
-require_once('tmhOAuth.php');
+require_once('_private/tmhOAuth.php');  // not committed due to private keys
+require_once('_private/twitter_con.php'); 
+// not committed due to private keys
 
-$twcon = new tmhOAuth(array(
-		'consumer_key'    => 'sNUWXmRtjPlWWTMabt8Jlw',
-		'consumer_secret' => 'KS0UWPkVOlX0h8HFs76aoCDk9KutZTCIZnSoHb7Y1I',
-		'user_token'      => '422366619-ab0Rx4T95d4YhEGcpjCGIVTvlPP2zLqxdh5tkpMU',
-		'user_secret'     => '17ZFXHjztgOYE6CwiFMv6epW8dXTN5IVmbjX89yx92c',
+/* twitter_con.php contents:
+ * 
+ 	$twcon = new tmhOAuth(array(
+		'consumer_key'    => 'YOUR_CONSUMER_KEY',
+		'consumer_secret' => 'YOUR_CONSUMER_SECRET',
+		'user_token'      => 'YOUR_USER_TOKEN',
+		'user_secret'     => 'YOUR_USER_SECRET',
 	));
+ *
+ */
 
 $delimit = "|";
 $success = "Y";
