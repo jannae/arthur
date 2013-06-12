@@ -47,7 +47,7 @@ void setup() {
   println(devices);
 
   // Change devices[0] to the proper index for your camera.
-  cam = new Capture(this, camw, camh, devices[4]);
+  cam = new Capture(this, camw, camh, devices[0]);
   camx = (dispw-camw)/2;
   camy = (disph-camh-35);
 }
